@@ -8,6 +8,9 @@
 	<style type="text/css">
 		body { padding:  2rem; max-width: 60rem; margin-left: auto; margin-right: auto;}
 		h2 { margin-top: 3rem; }
+		.btn-primary { background-color: #007dc2; border-color: #007dc2; }
+		.btn-primary:hover { background-color: #008fdb; border-color: #008fdb;}
+
 	</style>
 </head>
 
@@ -17,7 +20,7 @@
 <hr>
 
 <div class="form-group">
-	<input id="place-form" class="form-control" type="text" name="test" placeholder="City/Townname (e.g. Münster)">
+	<input id="place-form" class="form-control" type="text" name="test" placeholder="City/Town">
 </div>
 
 <h2>Preview</h2>
@@ -29,7 +32,7 @@
 <h2>Download</h2>
 <hr>
 
-<button id="download-zip">Download ZIP</button>
+<button class="btn btn-primary" id="download-zip">Download ZIP</button>
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="js/FileSaver.min.js"></script>
