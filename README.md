@@ -4,7 +4,7 @@ Quick and easy way to generate an download a Logo for a new Serlo Community Proj
 
 ## Demo
 
-https://elbotho.github.io/serlo-community-generator
+https://elbotho.github.io/serlo-community-logo-generator/
 
 
 ----
